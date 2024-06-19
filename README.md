@@ -1,0 +1,34 @@
+# Co-Stream | Chrome Extension
+
+## Overview
+
+The Co-Stream Extension enhances your Twitch.tv experience by allowing you to watch multiple streams simultaneously without the need to open multiple browser tabs or split your browser window. This extension seamlessly integrates into the Twitch interface, adding an intuitive co-streaming feature for a more versatile viewing experience.
+## Features
+
+- **Simultaneous Streaming**: Watch two Twitch streams side-by-side in a single browser tab.
+- **Easy Integration**: Adds a "Co-Stream" button to the Twitch interface for quick access.
+- **Flexible Viewing**: Resize and move the co-stream window to suit your viewing preferences.
+- **Simple Setup**: Enter the name of the channel you want to co-stream and start watching instantly.
+
+
+## Installation
+
+1. Clone the repository or download the source code
+2. Run the build script:
+```bash
+  npm run build
+```
+3. Load the extension in Chrome:
+- Open Chrome and go to `chrome://extensions/`
+- Enable "Developer mode"
+- Click on "Load unpacked" and select the `costream` folder
+## Usage
+1. Navigate to any Twitch channel page
+2. Click the `Co-Stream` button which should appear on the right of the `Subscribe` button
+3. Click the `Add Channel` button and enter the name of the channel you want to add
+## Contributing
+
+Contributions are always welcome! Please feel free to submit issues or pull requests.
+## License
+
+This project is licensed under the [MIT](https://choosealicense.com/licenses/mit/)  License.
