@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Co-Stream",
-    "version": "1.0.0",
+    "version": "0.1.0-alpha",
     "description": "Watch co-streaming streamers simultaneously",
     "content_scripts": [
         {
