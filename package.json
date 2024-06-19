@@ -1,15 +1,25 @@
 {
   "name": "costream",
   "version": "1.0.0",
-  "description": "",
+  "description": "Chrome extension to watch multiple Twitch streams simultaneously in one tab.",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
+    "build": "webpack",
+    "dev": "webpack --watch"
   },
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "chrome",
+    "extension",
+    "twitch",
+    "co-stream"
+  ],
+  "author": "jcbkdev",
+  "license": "MIT",
   "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^12.0.2",
+    "terser-webpack-plugin": "^5.3.10",
     "ts-loader": "^9.5.1",
     "typescript": "^5.4.5",
     "webpack": "^5.92.0",

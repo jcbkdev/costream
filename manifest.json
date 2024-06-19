@@ -15,5 +15,11 @@
     ],
     "host_permissions": [
         "https://*.twitch.tv/*"
-    ]
+    ],
+    "icons": {
+        "16": "build/costream-icon16.png",
+        "32": "build/costream-icon32.png",
+        "48": "build/costream-icon48.png",
+        "128": "build/costream-icon128.png"
+    }
 }
