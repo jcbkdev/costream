@@ -9,6 +9,8 @@ export function addCostream(channelName: string){
     const streamIframe = document.createElement("iframe");
     streamIframe.classList.add("costream-streamIframe");
     streamIframe.src = `https://player.twitch.tv/?channel=${channelName}&parent=twitch.tv&muted=true&autoplay=true`;
+    streamIframe.height = "200px";
+    streamIframe.width = "356px";
     streamIframe.allowFullscreen = true;
     const streamCloseButton = document.createElement("div");
     streamCloseButton.innerHTML = `<span>

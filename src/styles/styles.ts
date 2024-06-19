@@ -76,8 +76,8 @@ export function addStyles(){
     const costreamStreamStyle = `
     .costream-iframeContainer {
         position: relative;
-        width: max-content;
-        height: max-content;
+        width: 356px;
+        height: 200px;
         resize: both;
         overflow: hidden;
     }
