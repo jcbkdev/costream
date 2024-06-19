@@ -75,15 +75,47 @@ export function addStyles(){
 
     const costreamStreamStyle = `
     .costream-iframeContainer {
+        position: relative;
         width: max-content;
         height: max-content;
         resize: both;
         overflow: hidden;
     }
 
+    
     .costream-streamIframe {
         height: 100%;
         width: 100%;
+        }
+        
+    .costream-iframeContainer:hover .costream-streamCloseBtn {
+        display: flex;
+        opacity: 1;
+    }
+    
+    .costream-streamCloseBtn {
+        display: none;
+        opacity: 0;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        height: 20px;
+        width: 20px;
+        border-radius: 1rem;
+        cursor: pointer;
+        background: var(--color-red-10);
+
+        transition: opacity .5s ease;
+    }
+
+    .costream-streamCloseBtn:hover {
+        background: var(--color-red-9);
+    }
+
+    .costream-streamCloseBtn span {
+        display: flex;
     }
     `
 
