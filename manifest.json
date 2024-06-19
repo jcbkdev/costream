@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Co-Stream",
+    "version": "1.0.0",
+    "description": "Watch co-streaming streamers simultaneously",
+    "content_scripts": [
+        {
+            "matches": ["https://*.twitch.tv/*"],
+            "js": ["build/bundle.js"]
+        }
+    ],
+    "permissions": [
+        "activeTab",
+        "storage"
+    ],
+    "host_permissions": [
+        "https://*.twitch.tv/*"
+    ]
+}
