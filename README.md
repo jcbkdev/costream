@@ -12,20 +12,37 @@ The Co-Stream Extension enhances your Twitch.tv experience by allowing you to wa
 
 
 ## Installation
+### Option 1: Download and Install `.crx` File
+***this option may not work on some browsers***
 
+1. **Download the Extension**:
+- Go to the [Releases](https://github.com/jcbkdev/costream/releases) section of this repository.
+- Download the `costream.crx` file from the latest release.
+2. **Install the Extension**:
+- Open Google Chrome and navigate to `chrome://extensions/`
+- Enable "*Developer mode*" using the toggle switch in the top-right corner.
+- Drag and drop the downloaded `costream.crx` file onto the extensions page to install it.
+- Click "*Add extension*" when prompted.
+### Option 2: Build from Source
 1. Clone the repository or download the source code
+```bash
+  git clone https://github.com/jcbkdev/costream.git
+  cd costream
+```
 2. Run the build script:
 ```bash
   npm run build
 ```
 3. Load the extension in Chrome:
-- Open Chrome and go to `chrome://extensions/`
-- Enable "Developer mode"
-- Click on "Load unpacked" and select the `costream` folder
+- Open Chrome and navigate to `chrome://extensions/`
+- Enable "*Developer mode*"
+- Click on "*Load unpacked*" and select the `costream` folder
+
 ## Usage
 1. Navigate to any Twitch channel page
 2. Click the `Co-Stream` button which should appear on the right of the `Subscribe` button
 3. Click the `Add Channel` button and enter the name of the channel you want to add
+4. Enjoy!
 ## Contributing
 
 Contributions are always welcome! Please feel free to submit issues or pull requests.
